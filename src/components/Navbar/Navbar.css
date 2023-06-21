@@ -1,17 +1,56 @@
 .Container {
   display: flex;
   align-items: center;
-  font-family: "Inter", sans-serif;
+  background-color: black;
+  width: 100vw;
+  height: 80px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.434);
 }
 
 .left {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .center {
   flex: 4;
+  margin-left: 80px;
+}
+.center ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.center ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
 }
 
 .right {
   flex: 1;
+}
+
+.right button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  font-family: "Inter", sans-serif;
+  background: transparent;
+  border: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  outline: none;
 }
