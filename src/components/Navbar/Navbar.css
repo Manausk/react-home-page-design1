@@ -11,11 +11,12 @@
   flex: 1;
   display: flex;
   justify-content: center;
+  /* margin-left: 50px; */
 }
 
 .center {
   flex: 4;
-  margin-left: 80px;
+  /* margin-left: 80px;  */
 }
 .center ul {
   display: flex;

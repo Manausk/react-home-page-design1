@@ -1,0 +1,158 @@
+.LowerSection {
+  background-color: #000000;
+  min-height: 400px;
+  margin: 0px 50px;
+  margin-top: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.LowerSection .top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: black;
+}
+.LowerSection .top .button {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.LowerSection .top .button img {
+  margin-left: 21.5px;
+}
+.LowerSection .top p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #fff;
+}
+
+.LowerSection .down {
+  display: flex;
+  height: 200px;
+}
+.LowerSection .down .left {
+  flex: 1;
+  background-color: #000000;
+}
+
+.LowerSection .down .left .buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-end;
+}
+.LowerSection .down .left .buttons button {
+  color: #fff;
+  border: none;
+  background-color: transparent;
+  width: 221px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 40px;
+}
+.LowerSection .down .left .buttons button:first-child {
+  margin-bottom: -45px;
+}
+.LowerSection .down .left .buttons button:nth-child(2) {
+  margin-bottom: -45px;
+}
+
+.LowerSection .down .right {
+  flex: 2;
+  display: flex;
+  gap: 15px;
+  margin-left: 20px;
+}
+.LowerSection .down .right .container1 {
+  flex: 1;
+  background-image: url("../../assets/SubtractBlue.png");
+  background-position: center;
+  background-size: cover;
+}
+.LowerSection .down .right .container1 .another {
+  height: 50px;
+  width: 145px;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.LowerSection .down .right .container1 .another p {
+  font-weight: 550;
+  font-size: 17px;
+  line-height: 18px;
+}
+.LowerSection .down .right .container2 {
+  flex: 1;
+  background-image: url("../../assets/SubtractGreen.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.LowerSection .down .right .container2 .dots {
+  display: flex;
+  gap: 3px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.LowerSection .down .right .container2 .dots .dot1 {
+  height: 9px;
+  width: 9px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+.LowerSection .down .right .container2 .dots .dot2 {
+  height: 9px;
+  width: 9px;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 50%;
+}
+.LowerSection .down .right .container2 .case {
+  margin-left: 20px;
+  margin-top: 60px;
+  height: 50px;
+  width: 115px;
+}
+.LowerSection .down .right .container2 .case p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.LowerSection .down .right .container3 {
+  flex: 1;
+  background-image: url("../../assets/SubtractOrange.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.LowerSection .down .right .container3 .upar {
+  margin-left: 20px;
+  margin-top: 50px;
+  height: 33px;
+  width: 100px;
+}
+.LowerSection .down .right .container3 .upar p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+}
+.LowerSection .down .right .container3 .neeche {
+  margin-left: 20px;
+  margin-top: 52px;
+  font-weight: 600;
+  font-size: 37.5px;
+  line-height: 45px;
+}
+.LowerSection .down .right .container3 .plus {
+  position: absolute;
+  font-size: 25px;
+  margin-top: 120px;
+  margin-left: 105px;
+}
